@@ -1,0 +1,606 @@
+/*列表页主页面宽*/
+.page-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*清除浮动*/
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*新房类页面导航 newhouse-nav 开始*/
+.newhouse-nav {
+	height: 84px;
+}
+
+
+.newhouse-nav .newhouse-box{
+	height: 84px;
+	width: 1000px;
+}
+
+.newhouse-nav .new-left {
+	float: left;
+	height: 84px;
+	vertical-align: top;
+}
+
+.newhouse-nav .new-left .list-logo{
+	display: inline-block;
+	width: 164px;
+	height: 30px;
+	vertical-align: middle;
+	background: url(../images/list/logo.png) no-repeat left center;
+	background-size: contain;
+}
+
+.newhouse-nav .new-left .content-nav{
+	display: inline-block;
+	height: 84px;
+	margin-left: 50px;
+	line-height: 84px;	
+}
+
+.newhouse-nav .new-left .content-nav li {
+	display: inline-block;
+	margin-right: 30px;
+	
+}
+
+.newhouse-nav .new-left .content-nav a {
+	color: #333;
+}
+
+.newhouse-nav .new-left .content-nav i {
+	display: inline-block;
+	/*vertical-align: bottom;*/
+	/*margin-top: -100px;*/
+}
+
+
+
+.newhouse-nav .new-left .content-nav .loupan {
+	color: #5dbb85;
+}
+
+.newhouse-nav .new-left .content-nav a:hover {
+	text-decoration: underline;
+}
+
+.newhouse-nav .new-right {
+	float: right;
+	height: 84px;
+	line-height: 84px;
+	font-size: 14px;
+	color: #39ac6a;	
+}
+
+
+/*新房类页面导航 newhouse-nav 结束*/
+
+
+/*    新房首图 newh-banner 开始  */
+
+.newh-banner {
+	position: relative;
+	width: 100%;
+	height: 444px;
+	margin: 0 auto;
+	background-color: lightblue;
+}
+
+.newh-banner .banner-box {
+	height: 100%;
+	width: 100%;
+	background: url(../images/newhouse/2.jpg) no-repeat center center;
+}
+
+
+.newh-banner .banner-box .banner-con {
+	height: 100%;
+	width: 100%;
+}
+.newh-banner .banner-box .banner-con li {
+	float: left;
+}
+
+.newh-banner .banner-box .banner-con .left-map {
+	width: 248px;
+	height: 444px;
+	background-color: #ddd;
+}
+
+.newh-banner .banner-con .left-map .map-top {
+	width: 218px;
+	height: 72px;
+	padding: 20px 15px 17px;
+	background-color: #263138;
+}
+
+.newh-banner .banner-con .left-map .map-top p {
+	margin-bottom: 10px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 14px;
+	color: #fff;
+
+}
+
+.newh-banner .banner-con .left-map .map-top i {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: top;
+	background: url(../images/newhouse/jlt.png) no-repeat -8px -10px;
+
+}
+
+.newh-banner .banner-con .left-map .map-top a {
+	display: inline-block;
+	margin-top: 8px;
+	width: 213px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #f15044;
+
+}
+
+.newh-banner .banner-con .left-map .map-bottom {
+	display: inline-block;
+	width: 248px;
+	height: 335px;
+	/*background-color: red;*/
+	background: url(../images/newhouse/3.png) no-repeat;
+}
+
+
+.newh-banner .banner-con .new-filter {
+	width: 200px;
+	height: 338px;
+	padding: 53px 16px 53px 30px;
+	background-color: rgba(57,172,106,0.9);
+}
+
+
+.newh-banner .banner-con .new-filter .search-box {
+	width: 200px;
+	margin-bottom: 20px;
+	font-size: 0;
+	/*background-color: yellow;*/
+}
+
+.banner-con .new-filter .search-box input {
+	width: 134px;
+	height: 36px;
+	padding: 0 8px;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: rgba(255,255,255,0);
+
+}
+
+.banner-con .new-filter .search-box button {
+	width: 38px;
+	height: 38px;
+	vertical-align: top;
+	color: #00ae66;
+	border-radius: 0 2px 2px 0;
+	background-color: #fff;
+
+}
+
+.banner-con .new-filter .tj-search {
+	margin-bottom: 50px;
+	width: 190px;
+	height: 32px;
+	line-height: 16px;
+	font-size: 12px;
+
+}
+
+.banner-con .new-filter .tj-search .tj-lp {
+	font-size: 12px;
+	color: #fff;
+
+}
+
+.banner-con .new-filter .tj-search span {
+	font-size: 12px;
+	color: #c1dccb;
+	/*margin-right: 5px;*/
+
+}
+
+
+
+.banner-con .new-filter .tjzf {
+	width: 200px;
+	height: 125px;
+	font-size: 14px;
+	color: #fff;
+	/*background-color: pink*/
+
+}
+
+
+.banner-con .new-filter .tjzf .zf-text {
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.banner-con .new-filter .tjzf .zf-box li {
+	float: left;
+	position: relative;
+	padding: 0 9px;
+	border: 1px solid #fff;
+	margin: 0 10px 10px 0;
+	width: 70px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.banner-con .new-filter .zf-box .area-main {
+	display: none;
+	position: absolute;
+	margin-left: -10px;
+	width: 100%;
+	max-height: 140px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 2;
+	border: 1px solid #fff;
+	background-color: #fff;
+
+}
+
+
+.banner-con .new-filter .zf-box .area-main a {
+	color: #000;
+
+}
+
+.banner-con .tjzf .zf-box li:hover .area-main {
+	display: block;
+}
+
+
+
+
+
+
+.banner-con .new-filter .zf-box .sanjiao {
+	display: inline-block;
+	margin-left: 20px;
+	width: 9px;
+	height: 9px;
+	background: url(../images/newhouse/jlt.png) no-repeat -60px -9px;
+}
+
+.banner-con .new-filter .sx-btn {
+	display: inline-block;
+	margin-top: 30px;
+	width: 190px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	border-radius: 2px;
+	color: #39ac6a;
+	background-color: #fff;
+}
+
+.banner-con .slogan{
+	width: 720px;
+	height: 444px;
+	line-height: 444px;
+	text-align: center;
+}
+
+.banner-con .slogan .slogan-title{
+	display: inline-block;
+	margin-left: 30px;
+	width: 720px;
+	height: 100px;
+	vertical-align: middle;
+	background: url(../images/newhouse/jlt.png) no-repeat 0 -111px;
+}
+
+
+
+
+
+
+
+
+
+
+/*    新房首图 newh-banner 结束  */
+
+/*    精选楼盘 handpick 开始  */
+.handpick{
+	padding: 40px 0 50px 0;
+	/*background-color: pink;*/
+}
+
+.handpick .handpick-title {
+	margin-bottom: 43px;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+}
+
+
+.handpick .jx-wrap .jx-content {
+	height: 498px;
+}
+
+.handpick .jx-wrap .jx-content li {
+	position: relative;
+	float: left;
+	width: 550px;
+	height: 200px;
+	margin-bottom: 45px;
+}
+
+.handpick .jx-wrap .jx-content li:nth-child(odd) {
+	margin-right: 50px;
+}
+
+.handpick .jx-wrap .jx-content .xgt {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: inline-block;
+
+}
+
+
+.handpick .jx-wrap .jx-content .jx-left  {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.handpick .jx-wrap .jx-content img {
+	width: 200px;
+}
+
+.handpick .jx-wrap .jx-content .jx-right {
+	display: inline-block;
+	height: 160px;
+	width: 240px;
+	padding: 20px;
+	vertical-align: top;
+}
+
+.handpick .jx-content .jx-right .p1 {
+	height: 28px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.handpick .jx-content .jx-right .p1 span {
+	display: inline-block;
+	width: 28px;
+	height: 23px;
+	line-height: 23px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	vertical-align: top;
+	font-size: 2px;
+	color: #ccc;
+}
+
+.handpick .jx-content .jx-right .p2 {
+	margin-bottom: 11px;
+	height: 19px;
+	font-size: 14px;
+	color: #878787;
+}
+.handpick .jx-content .jx-right .p2 i {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: url(../images/newhouse/jlt.png) no-repeat -135px -9px;
+}
+
+.handpick .jx-content .jx-right .p3 {
+	height: 19px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+}
+.handpick .jx-content .jx-right .p4 {
+	margin-top: 11px;
+	height: 19px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+}
+.handpick .jx-content .jx-right .p4 span {
+	font-weight: 700;
+	color: #f15044;
+}
+.handpick .jx-wrap .index {
+	text-align: center;
+	height: 19px;
+}
+.handpick .jx-wrap .index span {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #E6E9EA;
+	border-radius: 10px;
+	background-color: #F0F2F3;
+}
+
+/*    精选楼盘 handpick 结束  */
+
+.fj-line {
+	width: 1150px;
+	height: 7px;
+	background: url(../images/newhouse/line.png) no-repeat;
+}
+
+/*分界线结束*/
+
+/*    推荐楼盘 new-recommend 开始  */
+
+.new-recommend {
+	width: 1150px;
+	padding: 40px 0 50px;
+}
+
+
+.new-recommend .title {
+	width: 100%;
+	height:45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+
+}
+
+.new-recommend .sell-num {
+	width: 100%;
+	height:43px;
+	line-height: 43px;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 700;
+
+}
+
+.new-recommend .sell-num span {
+	color: #1f99f4;
+}
+
+
+.new-recommend .lp-recommend li {
+	float: left;
+
+	width: 342px;
+	height: 394px;
+}
+.new-recommend .lp-recommend .mar-l {
+	margin: 0 62px 52px 0;
+}
+
+
+.new-recommend .lp-recommend .image {
+	position: relative;
+	width: 342px;
+	height: 342px;
+	margin-bottom: 12px;
+}
+
+
+.new-recommend .lp-recommend .image img {
+	width: 342px;
+	height: 342px;
+}
+
+.new-recommend .lp-recommend .image p {
+	position: absolute;
+}
+
+.new-recommend .lp-recommend .image .xgt {
+	top: 10px;
+	left: 10px;
+	font-size: 12px;
+	color: rgba(255,255,255,0.5);
+}
+
+.new-recommend .lp-recommend .image .name {
+	top: 50%;
+	left: 50%;
+	margin-left: -70px;
+	font-size: 26px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.new-recommend .lp-recommend .image .add {
+	bottom: 18px;
+	padding-left: 18px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.new-recommend .lp-recommend .image .add i {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: url(../images/newhouse/jlt.png) no-repeat -158px -9px;
+}
+
+.new-recommend .lp-recommend .con-box {
+	width: 342px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 14px;
+}
+
+.new-recommend .lp-recommend .price {
+	font-size: 14px;
+	font-weight: 700;
+	color: #f15044; 
+}
+
+.new-recommend .lp-recommend .nature {
+	float: right;
+	display: inline-block;
+	padding: 1px 5px;
+	border: 1px solid #ccc;
+	line-height: 19px;
+	vertical-align: top;
+	font-size: 14px;
+	color: #999;
+	background-color: #fff; 
+}
+
+
+.new-recommend .lp-recommend .jushi {
+	line-height: 30px;
+	font-size: 14px;
+	color: #333;
+}
+
+.new-recommend .more {
+	display: inline-block;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #797c7f;
+	background-color: #ededee;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*    推荐楼盘 new-recommend 结束  */

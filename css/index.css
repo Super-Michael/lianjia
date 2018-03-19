@@ -1,0 +1,801 @@
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+/*页面顶部 page-head start*/
+.page-head {
+	position: relative;;
+	height: 640px;	
+	background: url(../images/head/1.jpg) no-repeat center center;
+	background-attachment: fixed;
+}
+
+.top-header {
+	position: relative;
+	top: 30px;
+	height: 61px;
+	/*background-color: pink;*/
+}
+
+.top-bar .top-right{
+	float: right;
+	position: relative;
+	right: 0;
+}
+
+.top-bar .top-right a {
+	color: #fff;
+}
+
+.top-bar .top-right .login {
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	color: #fff;
+}
+
+.top-bar .login a{
+	font-size: 12px;
+	margin-left: 5px;
+	color: #fff;
+}
+
+.top-bar .top-logo {
+	float: left;
+	width: 206px;
+	height: 61px;
+}
+
+
+.top-bar .top-logo .img-logo{
+	display: inline-block;
+	width: 137px;
+	height: 66px;
+	background: url(../images/head/6.png) no-repeat -10px -368px;
+}
+
+
+.top-bar .top-logo .top-area{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 16px;
+	width: 60px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 14px;
+	color: #fff;
+	background-color: rgba(0,0,0,.25);
+}
+
+.top-logo .top-area .area{
+	display: inline-block;
+}
+.top-logo .top-area .iconfont{
+	font-size: 14px;
+}
+
+.top-bar .navigation {
+	/*width: 689px;*/
+	margin-top: 26px;
+	height: 22px;
+	/*text-align: center;*/
+}
+
+.top-bar .navigation li{
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.top-right .navigation .guide,.experience {
+	position: relative;
+}
+
+.top-right .navigation .guide-box,.exp-box {
+	display: none;
+	position: absolute;
+	top: 16px;
+	margin-left: -45px;
+	text-align: center;	
+}
+
+
+.navigation .guide:hover .guide-box {
+	display: block;
+}
+
+
+.top-right .navigation .guide-box .guide-menu{
+	width: 124px;
+	height: 60px;
+	margin-top: -4px;
+	border-radius: 2px;
+	color: #333;
+	background-color: #fff;
+}
+
+.navigation .guide .guide-menu li {
+	width: 124px;
+	height: 30px;
+	margin-left: 0;
+	line-height: 30px;
+}
+
+.navigation .guide-box .guide-menu a {
+	font-size: 14px;
+	color: #333;
+}
+
+
+.navigation .experience:hover .exp-box {
+	display: block;
+
+}
+
+
+.top-right .navigation .exp-box .exp-menu {
+	width: 124px;
+	height: 60px;
+	margin-top: -4px;
+	border-radius: 2px;
+	color: #333;
+	background-color: #fff;
+}
+
+.navigation .experience .exp-menu li {
+	width: 124px;
+	height: 30px;
+	margin-left: 0;
+	line-height: 30px;
+
+}
+
+.navigation .exp-box .exp-menu a{
+	font-size: 14px;
+	color: #333;
+}
+
+.top-bar .navigation .icon-shu{
+	color: #ffef3b;
+}
+
+.top-bar .navigation .icon-2222,.icon-icon-up{
+	font-size: 10px;
+	color: #fff;
+}
+
+
+/*页头滚动文字轮播区域 开始*/
+
+.header-wrap {
+	position: absolute;
+	top: 214px;
+	width: 1150px;
+	height: 241px;
+	text-align: center;
+	/*background-color: lightblue;*/
+}
+
+.header-wrap .scrollbox {
+	overflow: hidden;
+	position: relative;
+	height: 35px;
+	/*background: pink;*/
+}
+
+.header-wrap .scrollbox img {
+	vertical-align: top;
+}
+
+.header-wrap .scroll-msg {
+
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	color: #fff;
+	/*background-color: yellow;*/
+}
+
+/*页头滚动文字区域 结束*/
+
+.header-search {
+	width: 772px;
+	height: 98px;
+	margin: 0 auto;
+	padding: 20px;
+	/*background-color: #ddd;*/
+}
+
+.header-search .search-menu {
+	position: relative;
+	width: 324px;
+	height: 43px;
+}
+
+.header-search .search-nav li{
+	float: left;
+	height: 32px;
+	padding-right: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	color: #b7b6b6;
+}
+.header-search .search-nav .change-color {
+	color: #ccc;
+}
+
+.header-search .search-nav .active {
+	color: #fff;
+}
+
+
+.header-search .search-menu .iconfont {
+	position: absolute;
+	left: 16px;
+	bottom: -7px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.search-bar {
+	width: 773px;
+	height: 55px;
+	/*border: 1px solid red;*/
+}
+
+.search-left,.search-right {
+	float: left;
+}
+
+.search-bar .search-left {
+	width: 626px;
+	height: 55px;
+	vertical-align: top;
+	padding-left: 20px;
+	/*padding-left: 20px;*/
+}
+
+.search-bar .search-right {
+	width: 127px;
+	height: 55px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #00ae66;
+}
+
+.top-bar .header-state {
+	position: absolute;
+	bottom: 36px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.top-bar .header-state a {
+	font-size: 12px;
+	color: #fff;
+
+}
+
+.top-bar .header-state .pen {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+
+/*页面顶部 page-head end*/
+
+
+/*主内容区 content 开始*/
+
+/*主内容区导航 content-nav 开始*/
+
+.content-nav {
+	position: relative;
+	padding: 45px 0 50px;
+	height: 150px;
+	/*background-color: lightblue;*/
+}
+
+.content-nav li {
+	float: left;
+	width: 287.5px;
+	height: 150px;
+	text-align: center;
+	/*background-color: pink;*/
+}
+
+.content-nav .nav-box img {
+	position: relative;
+	width: 76px;
+	margin-bottom: 20px;
+}
+
+.nav-box img:hover {
+	 top: 0;
+
+	 animation: change 2s linear infinite alternate backwards;
+
+}
+
+@keyframes change {
+	0% {
+		top: 0;
+	}
+	25%{
+		top: -3px;
+	}
+	50%{
+		top: 0;
+	}
+	75%{
+		top: 3px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+.content-nav .nav-box .nav-title {
+	font-size: 18px;
+	color: #394043;
+}
+
+.content-nav .nav-box .nav-intro {
+	margin: 3px auto 5px auto;
+	width: 183px;
+	height: 36px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #b0b3b4;
+}
+
+
+
+/*主内容区导航 content-nav 结束*/
+
+
+/*主内容广告content-hand 开始*/
+
+.content-hand {
+	position: relative;
+	height: 479px;
+	padding-top: 45px;
+	background: url(../images/head/7.jpg) repeat center center;
+}
+
+.content-hand .hand-nav {
+	width: 479px;
+	height: 348px;
+	padding-top: 40px;
+	/*background-color: pink;*/
+}
+
+.content-hand .hand-img {
+	width: 286px;
+	height: 118px;
+	background: url(../images/head/6.png) no-repeat -446px -379px;
+}
+
+.content-hand .hand-nav .text {
+	margin-top: 22px;
+	line-height: 22px;
+	font-size: 14px;
+	color: #333;
+}
+
+.hand-nav .app-download {
+	margin-top: 36px;
+	height: 104px;
+}
+.hand-nav .erweima {
+	height: 102px;
+}
+
+.hand-nav .app-download .app {
+	display: inline-block;
+	vertical-align: top;
+	width: 134px;
+	height: 104px;
+}
+.hand-nav .app-download a {
+	display: inline-block;
+	width: 134px;
+	height: 44px;
+}
+
+
+
+.hand-nav .app-download .ios {
+	/*float: left;*/
+	background: url(../images/head/6.png) no-repeat -20px -139px;
+}
+
+.hand-nav .app-download .android {
+	margin-top: 12px;
+	/*float: left;*/
+	background: url(../images/head/6.png) no-repeat -20px -197px;
+}
+
+
+/*主内容广告content-hand 结束*/
+
+/*主内容二手房 ershouhouse 开始*/
+
+.ershouhouse {
+	
+	height: 490px;
+}
+.ershou-box {
+	padding:50px 0 15px;
+	height: 425px;
+	/*background-color: pink; */
+}
+
+.ershou-box .slogan {
+	width: 248px;
+	height: 30px;
+	background: url(../images/head/6.png) no-repeat -20px -94px;	
+}
+
+.ershou-box .slogan-text {
+	margin-top: 10px;
+	height: 19px;
+	font-size: 14px;
+	color: #888;
+}
+
+.ershou-box .more {
+	float: right;
+	font-size: 14px;
+	color: #333;
+}
+
+.ershou-box .more:hover {
+	text-decoration: underline;
+}
+
+.ershou-box .content {
+	height: 326px;
+	margin-top: 40px;
+	/*background-color: lightblue;*/
+}
+
+.ershou-box .content li {
+	position:relative;
+	float: left;
+	width: 250px;
+	height: 323px;
+	border-radius: 2px;
+}
+
+.ershou-box .content li img {
+	width: 250px;
+	height: 192px;
+}
+
+
+.ershou-box .content .mg-left {
+	margin-right: 50px;
+}
+
+.ershou-box .content .price {
+	position: absolute;
+	top: 150px;
+	width: 50px;
+	height: 30px;
+	padding: 0 8px;
+	border-radius: 1px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #394043;
+
+}
+
+.ershou-box .content .content-list {
+	height: 264px;
+	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.ershou-box .content-list .list-title{
+	overflow: hidden;
+	height: 20px;
+	width: 214px;
+	padding: 10px 18px 0;
+	color: #394043;
+}
+
+
+.ershou-box .content-list .list-add{
+	overflow: hidden;
+	height: 45px;
+	line-height: 45px;
+	width: 214px;
+	padding: 0 18px;
+	font-size: 12px;
+	color: #999;
+}
+
+.ershou-box .content-list .list-add span{
+	margin-right: 8px;
+}
+.ershou-box .content .tips {
+	overflow: hidden;
+	height: 45px;
+	width: 244px;
+	line-height: 45px;
+	font-size: 12px;
+	color: #aaa;
+}
+
+/*主内容二手房 ershouhouse 结束*/
+
+/*小区推荐 recommend 开始*/
+.recommend {
+	height: 450px;
+	width: 100%;
+	padding-top: 50px;
+	background-color: #eeeef1;
+}
+
+.recommend .slogan {
+	width: 158px;
+	height: 30px;
+	background: url(../images/head/6.png) no-repeat -20px -56px;
+}
+
+.recommend .slogan-text {
+	margin-top: 10px;
+	height: 19px;
+	font-size: 14px;
+	color: #888;
+}
+
+.recommend .slogan-text .more{
+	float: right;
+	color: #394043;
+}
+
+.recommend .slogan-text .more:hover {
+	text-decoration: underline;
+}
+
+.recommend .content {
+	margin-top: 44px;
+	height: 284px;
+	/*background-color: pink;*/
+}
+
+.recommend .content li {
+	float: left;
+	width: 350px;
+	height: 100%;
+}
+
+.recommend .content .mg-right {
+	margin-right: 50px;
+}
+
+.recommend .content img{
+	width: 350px;
+	height: 200px;
+}
+
+.recommend .content .details{
+	width: 310px;
+	height: 84px;
+	margin: 0 20px;
+}
+
+.recommend .details .com-name {
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #394043;
+}
+
+.recommend .details .price {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #394043;
+}
+
+.recommend .details .times {
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	color: #888c8e;
+}
+
+/*小区推荐 recommend 结束*/
+
+/*新房 newhouse 开始*/
+.newhouse {
+	height: 422px;
+	width: 100%;
+	padding-top: 50px;
+	/*background-color: lightblue;*/
+}
+
+.newhouse .slogan {
+	width: 158px;
+	height: 30px;
+	background: url(../images/head/6.png) no-repeat -20px -56px;
+}
+
+.newhouse .slogan-text {
+	margin-top: 10px;
+	height: 19px;
+	font-size: 14px;
+	color: #888;
+}
+
+.newhouse .slogan-text .more{
+	float: right;
+	color: #394043;
+}
+
+.newhouse .slogan-text .more:hover {
+	text-decoration: underline;
+}
+
+.newhouse .content {
+	margin-top: 44px;
+	height: 240px;
+	/*background-color: pink;*/
+}
+.newhouse .content li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 350px;
+	height: 260px;
+	text-align: center;
+
+	/*line-height: 260px;*/
+}
+
+.newhouse .content .bg {
+	position: absolute;
+	width: 350px;
+	height: 260px;
+	background-color: #000;
+	opacity: .3;
+}
+
+.newhouse .content .new-right {
+	margin-right: 50px;
+}
+
+.newhouse .content img {
+	width: 350px;
+	height: 260px;
+	transition: all 1s linear;
+}
+
+.newhouse .content li:hover img {
+	/*transform: scale(1.1,1.1);*/
+	width: 367.5px;
+	height: 273px;
+	transition: all 1s linear;
+}
+
+.newhouse .content .house-title {
+	position: absolute;
+	top: 50%;
+	width: 350px;
+	height: 260px;
+	text-align: center;
+}
+
+.newhouse .content .house-title .price{
+	font-size: 20px;
+
+	color: #fff2ab;
+}
+
+
+.newhouse .content .house-title .com-name{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+
+.newhouse .content .promote {
+	position: absolute;
+	top: 206px;
+	left: 0;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #394043;
+	background-color: #fff2ab
+}
+
+
+/*新房 newhouse 结束*/
+
+/*企业宗旨 tenet-box 开始*/
+
+.tenet-box {
+	height: 180px;
+	width: 100%;
+	padding-top: 60px;
+	background: url(../images/head/tenetbg.jpg) no-repeat center top;
+}
+
+.tenet {
+	height: 180px;
+	/*background-color: pink;*/
+}
+
+.tenet .tenet-img {
+	float: left;
+	width: 500px;
+	height: 115px;
+	background: url(../images/head/6.png) no-repeat -20px -254px;
+}
+
+.tenet .tenet-right {
+	float: right;
+	width: 555px;
+	height: 111px;
+}
+
+.tenet .tenet-right p{
+	line-height: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.tenet .tenet-right .select-box {
+	width: 100%;
+	height: 44px;
+	margin-top: 22px;
+	background-color: #fff;
+}
+
+.tenet .tenet-right .select-box .select{
+	width: 488px;
+	height: 28px;
+	padding: 8px 20px;
+}
+
+.tenet .tenet-right .select-box .btn{
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	background: url(../images/head/6.png) no-repeat -407px -20px;
+}
+
+
+/*企业宗旨 tenet 结束*/
+
+
+
+
+/*主内容区 content 结束*/

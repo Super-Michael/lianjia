@@ -1,0 +1,413 @@
+@charset "UTF-8";
+body {
+  font-size: 0.33333rem; }
+
+/* 头广告 headBanner start */
+.headBanner {
+  width: 100%;
+  height: 6.24074rem;
+  background: url(../images/App/1.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff; }
+
+.headBanner .banTop {
+  display: flex;
+  /*width: 100%;*/
+  height: 0.66667rem;
+  padding-top: 0.27778rem;
+  padding-bottom: 0.27778rem;
+  margin-left: 0.40741rem;
+  /*margin-right: torem(44px);*/
+  justify-content: space-between;
+  color: #fff;
+  /*background: pink;*/ }
+
+.headBanner .banTop .add {
+  display: flex;
+  width: 1.61111rem;
+  height: 0.66667rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 0.37037rem;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.headBanner .banTop .add i {
+  font-size: 0.37037rem; }
+
+.headBanner .banTop .user {
+  display: inline-block;
+  width: 1.61111rem;
+  height: 0.66667rem;
+  color: #fff; }
+
+.headBanner .banTop .user i {
+  font-size: 0.55556rem; }
+
+.headBanner .banBottom {
+  width: 100%;
+  height: 3.61111rem;
+  padding-top: 0.96296rem;
+  padding-bottom: 0.44444rem;
+  text-align: center; }
+
+.headBanner .banBottom .slogan {
+  display: inline-block;
+  width: 3.93519rem;
+  height: 0.75926rem;
+  background: url(../images/App/2.png) no-repeat; }
+
+.headBanner .banBottom .search {
+  display: inline-block;
+  margin-top: 1.66667rem;
+  width: 9.07407rem;
+  height: 1rem;
+  vertical-align: top;
+  border-radius: 0.09259rem;
+  background: #fff; }
+
+.headBanner .banBottom .search i {
+  margin-left: 0.18519rem;
+  font-size: 0.33333rem;
+  color: #959e96; }
+
+.headBanner .banBottom .search .input {
+  width: 8.14815rem;
+  height: 0.96296rem;
+  padding-left: 0.27778rem;
+  font-size: 0.31481rem; }
+
+/* 头广告 headBanner end */
+/*   页面导航 pageNav 开始 */
+.pageNav {
+  width: 100%;
+  height: 5.7963rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  /*background: lightblue;*/ }
+
+.pageNav li {
+  display: flex;
+  width: 25%;
+  justify-content: center; }
+
+.pageNav .nav-text {
+  display: block;
+  width: 100%;
+  margin-top: 0.18519rem;
+  text-align: center;
+  color: #222; }
+
+.pageNav .ershoufang {
+  display: block;
+  width: 1.38889rem;
+  height: 1.38889rem;
+  background: url(../images/App/pageNav.png) no-repeat -0.05556rem -5.68519rem;
+  background-size: 1.48148rem 66.11111rem; }
+
+.pageNav .xinfang {
+  display: block;
+  width: 1.38889rem;
+  height: 1.38889rem;
+  background: url(../images/App/pageNav.png) no-repeat -0.05556rem -11.35185rem;
+  background-size: 1.48148rem 66.11111rem; }
+
+.pageNav .zufang {
+  display: block;
+  width: 1.38889rem;
+  height: 1.38889rem;
+  background: url(../images/App/pageNav.png) no-repeat -0.05556rem -17rem;
+  background-size: 1.48148rem 66.11111rem; }
+
+.pageNav .sellfang {
+  display: block;
+  width: 1.38889rem;
+  height: 1.38889rem;
+  background: url(../images/App/pageNav.png) no-repeat -0.05556rem -7.55556rem;
+  background-size: 1.48148rem 66.11111rem; }
+
+/*   页面导航 pageNav 开始 */
+/*   页面广告 pageBanner   开始 */
+.pageBanner {
+  width: 100%;
+  height: 2.87037rem;
+  padding-top: 0.37037rem;
+  padding-bottom: 0.37037rem;
+  border-top: 0.03704rem solid #dfe5de;
+  border-bottom: 0.03704rem solid #dfe5de;
+  background-color: #eff5ee; }
+
+.pageBanner img {
+  width: 10rem; }
+
+/*   页面广告 pageBanner   结束 */
+/*   常用工具 tools 开始 */
+.tools {
+  width: 100%;
+  border-bottom: 0.03704rem solid #e2e8e1; }
+
+.tools .title {
+  /*width: 100%;*/
+  height: 1.51852rem;
+  line-height: 1.51852rem;
+  margin-left: 0.55556rem;
+  border-bottom: 0.03704rem solid #e1e7e0;
+  font-size: 0.44444rem;
+  font-weight: bold;
+  color: #333; }
+
+.tools .toolsCon {
+  width: 100%;
+  height: 4.72222rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  /*background: lightblue;*/ }
+
+.tools .toolsCon li {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  /*background: pink;*/ }
+
+.tools .toolsCon .capacity {
+  display: inline-block;
+  width: 0.64815rem;
+  height: 0.64815rem;
+  background: url(../images/App/pageNav.png) no-repeat -0.05556rem -31.15741rem;
+  background-size: 0.74074rem 33.05556rem; }
+
+.tools .toolsCon .tools-text {
+  display: block;
+  width: 100%;
+  margin-top: 0.18519rem;
+  text-align: center;
+  color: #222; }
+
+/*   常用工具 tools 结束 */
+/*   为您推荐二手房 recommend   开始 */
+.recommend {
+  width: 100%;
+  padding-top: 0.33333rem;
+  background: #eff5ee; }
+
+.recommend .line {
+  width: 100%;
+  height: 0.03704rem;
+  background: #e2e8e1; }
+
+.recommend .tittle {
+  width: 100%;
+  height: 1.51852rem;
+  line-height: 1.51852rem;
+  background: #fff;
+  border-bottom: 0.03704rem solid #e1e7e0; }
+
+.recommend .tittle a {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.40741rem;
+  /*width: 100%;*/
+  height: 1.51852rem;
+  line-height: 1.51852rem;
+  margin-left: 0.55556rem;
+  font-size: 0.46296rem;
+  font-weight: bold;
+  background: #fff; }
+
+.recommend .tittle .more {
+  /*float: right;*/
+  /*margin-right: 100px;*/
+  /*margin-right: torem(20px);*/
+  font-size: 0.42593rem;
+  color: #9c9fa1; }
+
+.recommend .recList {
+  padding-left: 0.55556rem;
+  background-color: #fff; }
+
+.recommend .recList li {
+  /*width: 100%;*/
+  padding: 0.55556rem 0 0.55556rem 0;
+  border-bottom: 0.03704rem solid #e1e7e0; }
+
+.recommend .recList .content {
+  display: flex;
+  justify-content: space-between; }
+
+.recommend .recList .content img {
+  width: 3rem;
+  height: 2.25rem;
+  margin-right: 0.55556rem; }
+
+.recommend .recList .content .conText {
+  flex: 1;
+  /*width: torem(960px);*/
+  padding-right: 0.55556rem; }
+
+.recommend .content .conBt {
+  margin-bottom: 0.22222rem;
+  font-size: 0.37037rem;
+  /*font-weight: bold;*/
+  color: #394043; }
+
+.recommend .content .jushi {
+  margin-bottom: 0.22222rem;
+  font-size: 0.27778rem;
+  color: #838982; }
+
+.recommend .content .price {
+  margin-bottom: 0.22222rem;
+  font-size: 0.27778rem;
+  color: #838982; }
+
+.recommend .content .price .zj {
+  font-size: 0.37037rem;
+  font-weight: 600;
+  color: #fa5741; }
+
+.recommend .content .state {
+  margin-bottom: 0.22222rem; }
+
+.recommend .content .stateA {
+  padding: 0.05556rem 0.09259rem;
+  border-radius: 0.03704rem;
+  font-size: 0.2963rem;
+  color: #59abfd;
+  background-color: rgba(89, 171, 253, 0.15); }
+
+.recommend .content .stateB {
+  padding: 0.05556rem 0.09259rem;
+  border-radius: 0.03704rem;
+  font-size: 0.2963rem;
+  color: #33be85;
+  background-color: rgba(51, 190, 133, 0.15); }
+
+.recommend .content .stateC {
+  padding: 0.05556rem 0.09259rem;
+  border-radius: 0.03704rem;
+  font-size: 0.2963rem;
+  color: #f2a12f;
+  background-color: rgba(242, 161, 47, 0.15); }
+
+.recommend .itemDesc {
+  margin-right: 0.55556rem;
+  height: 0.92593rem;
+  line-height: 0.92593rem;
+  padding-left: 0.18519rem;
+  color: #9c9fa1;
+  background: #f8f8f8; }
+
+/*   为您推荐二手房 recommend   结束 */
+/* 页面底部 foot 开始  */
+.foot {
+  width: 100%;
+  padding-top: 0.33333rem;
+  background: #eff5ee; }
+
+.foot .footCon {
+  padding: 0.22222rem 0.40741rem;
+  /*padding-left: torem(60px);*/
+  /*margin: 0 torem(44px);*/
+  color: #939494;
+  background: #2f3130; }
+
+.foot .footCon .tittle {
+  /*margin-right: torem(44px);*/
+  padding-bottom: 0.22222rem;
+  border-bottom: 0.03704rem solid #3e3e3e;
+  font-size: 0.37037rem;
+  color: #939494; }
+
+.foot .footCon .fContent {
+  width: 100%; }
+
+.foot .footCon .fContent .option {
+  width: 100%;
+  height: 0.88889rem;
+  line-height: 0.88889rem;
+  padding: 0.44444rem 0;
+  display: flex;
+  justify-content: space-between; }
+
+.foot .fContent .option span {
+  display: inline-block;
+  width: 4.35185rem;
+  height: 0.88889rem;
+  text-align: center;
+  font-size: 0.37037rem;
+  font-weight: bold;
+  color: #717770;
+  background: #202020; }
+
+.foot .fContent .option .active {
+  color: #fff;
+  background: #373d36; }
+
+.foot .fContent .ljfzCity {
+  display: flex;
+  flex-wrap: wrap; }
+
+.foot .fContent .area, .city {
+  display: none; }
+
+.foot .fContent .change {
+  display: block; }
+
+.foot .fContent .ljfzCity li {
+  width: 30%;
+  height: 0.37037rem;
+  line-height: 40px;
+  padding: 0.23148rem 0 0.23148rem 0.14815rem;
+  text-align: left;
+  font-size: 0.38889rem;
+  /*background: pink;*/
+  list-style: disc;
+  list-style-position: inside; }
+
+.foot .footCon .info {
+  padding-top: 0.18519rem;
+  height: 1.38889rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.foot .footCon .info .download {
+  display: flex; }
+
+.foot .footCon .info .download a {
+  display: inline-block;
+  width: 1.68519rem;
+  height: 0.61111rem;
+  flex: 1; }
+
+.foot .footCon .info .download .ios {
+  background: url(../images/App/foot.png) no-repeat 0 0;
+  background-size: 1.66667rem 1.27778rem;
+  /*background-color: lightblue;*/ }
+
+.foot .footCon .info .download .android {
+  background: url(../images/App/foot.png) no-repeat 0 -0.64815rem;
+  background-size: 1.66667rem 1.27778rem;
+  /*background-color: lightblue;*/ }
+
+.foot .footCon .info .shengMing {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: 0.31481rem;
+  line-height: 1.5; }
+
+.foot .footCon .info .shengMing p {
+  text-overflow: hidden;
+  white-space: nowrap;
+  display: block; }
+
+/* 页面底部 foot 结束  */
+
+/*# sourceMappingURL=M-index.css.map */

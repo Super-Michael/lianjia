@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链家列表页</title>
+	<!-- 引入公共样式 -->
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<!-- 引入重置样式 -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!-- 引入列表主样式 -->
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<!-- 引入图标字体 -->
+	<link rel="stylesheet" type="text/css" href="./fonts/iconfont.css">
+</head>
+<body>
+<!-- 页头导航条 header-nav 开始-->
+	<div class="header-nav clearfix">
+		<div class="header-box page-container clearfix">
+			<ul class="content-left clearfix">
+				<li class="text-first">
+					<a href="">首页</a>
+				</li>
+				<li>
+					<a href="">二手房</a>
+				</li>
+				<li>
+					<a href="">新房</a>
+				</li>
+				<li>
+					<a href="">租房</a>
+				</li>
+				<li>
+					<a href="">旅居地产</a>
+				</li>
+				<li>
+					<a href="">海外</a>
+				</li>
+				<li>
+					<a href="">小区</a>
+				</li>
+				<li>
+					<a href="">经纪人</a>
+				</li>
+				<li class="guide">
+					<a href="">指南</a>
+				</li>
+				<li class="lianjia">
+					<a href="">链家</a>
+					<div class="app-img">
+						<img src="images/list/erweima.png">
+					</div>
+				</li>
+				<li>
+					<a href="">我是业主</a>
+				</li>
+
+			</ul>
+			<div class="clearfix">
+				<div class="content-right">
+					<a href="">注册</a>
+					<a href="">登陆</a>	
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+<!-- 页头导航条 header-nav 结束-->
+
+<!-- 新房类页面导航 newhouse-nav 开始 -->
+	<div class="newhouse-nav clearfix">
+		<div class="newhouse-box page-container clearfix">
+			<div class="new-left">
+				<a href="" class="list-logo"></a>
+				<ul class="content-nav">
+					<li>
+						<a href="">首页</a>
+					</li>
+					<li>
+						<a href="" class="loupan">楼盘</a>
+					</li>
+					<li>
+						<a href="">旅居</a>
+					</li>
+				</ul>
+			</div>
+			<div class="new-right">
+				<i class="iconfont icon-dianhua1"></i>
+				客服热线  1010-9666
+			</div>
+		</div>
+		
+	</div>
+
+
+<!-- 新房类页面导航 newhouse-nav 结束 -->
+
+
+<!-- 楼盘搜索模块lp-search 开始 -->
+	<div class="lp-search">
+		<div class="lpsearch-box page-container">
+			<div class="search-main">
+				<input class="search-input" type="text" name="username" placeholder="请输入楼盘名称或区域">
+				<button class="search-btn">
+					<i class="iconfont icon-search"></i>
+				</button>
+			</div>
+			<a href="" class="search-map">
+				<i class="iconfont icon-location"></i>
+				地图找房
+			</a>
+			
+		</div>
+		
+	</div>
+
+<!-- 楼盘搜索模块lp-search 结束 -->
+
+<!-- 主索引 content-nav 开始 -->
+
+	<div class="prime-nav">
+		<div class="nav-box page-container">
+			<div class="city-msg">
+				<i class="iconfont icon-location"></i>
+				<a href="">链家网北京站</a>
+				<i class="iconfont icon-jiantou"></i>
+				<a href="">北京新房</a>
+				<i class="iconfont icon-jiantou"></i>
+				<a href="">北京楼盘</a>
+			</div>
+		
+			<div class="nav-main">
+				<div class="district">
+					<h3 class="dis-title title">区域 :</h3>
+					<ul class="dis-main">
+						<li class="unmilit"><a href="">不限</a></li>
+						<li><a href="">东城</a></li>
+						<li><a href="">西城</a></li>
+						<li><a href="">朝阳</a></li>
+						<li><a href="">海淀</a></li>
+						<li><a href="">丰台</a></li>
+						<li><a href="">石景山</a></li>
+						<li><a href="">通州</a></li>
+						<li><a href="">昌平</a></li>
+						<li><a href="">大兴</a></li>
+						<li><a href="">亦庄开发区</a></li>
+						<li><a href="">顺义</a></li>
+						<li><a href="">房山</a></li>
+						<li><a href="">门头沟</a></li>
+						<li><a href="">平谷</a></li>
+						<li><a href="">怀柔</a></li>
+						<li><a href="">密云</a></li>
+						<li><a href="">延庆</a></li>
+						<li><a href="">武清</a></li>
+						<li><a href="">安次</a></li>
+						<li><a href="">大厂</a></li>
+						<li><a href="">固安</a></li>
+						<li><a href="">广阳</a></li>
+						<li><a href="">燕郊经济技术开发区</a></li>
+						<li><a href="">香河</a></li>
+						<li><a href="">永清</a></li>
+						<li><a href="">涞水</a></li>
+						<li><a href="">涿州</a></li>
+						<li><a href="">怀来县</a></li>
+						<li><a href="">易县</a></li>
+						<li><a href="">崇礼县</a></li>
+						<li><a href="">下花园</a></li>
+						<li><a href="">燕郊</a></li>
+						<li><a href="">霸州</a></li>
+						<li><a href="">秦皇岛</a></li>
+						<li><a href="">承德</a></li>
+					</ul>
+					
+				</div>
+
+				<div class="hos-type">
+					<h3 class="type-title title">房型 :</h3>
+					<ul class="main">
+						<li class="unmilit">
+							<a href="">不限</a>
+						</li>
+						<li><a href="">一室</a></li>
+						<li><a href="">二室</a></li>
+						<li><a href="">三室</a></li>
+						<li><a href="">四室</a></li>
+						<li><a href="">五室</a></li>
+						<li><a href="">五室以上</a></li>
+					</ul>
+					
+				</div>
+				<div class="price">
+					<h3 class="price-title title">售价 :</h3>
+					<ul class="main">
+						<li class="unmilit">
+							<a href="">不限</a>
+						</li>
+						<li><a href="">100万以下</a></li>
+						<li><a href="">100-150万</a></li>
+						<li><a href="">150-200万</a></li>
+						<li><a href="">200-250万</a></li>
+						<li><a href="">250-300万</a></li>
+						<li><a href="">300-500万</a></li>
+						<li><a href="">500-1000万</a></li>
+						<li><a href="">500-1000万</a></li>
+						<li><a href="">1000万以上</a></li>
+					</ul>
+					<div class="search">
+						<input type="text" name="search-price">
+						<span class="ljf"> - </span>
+						<input type="text" name="search-price">
+						<span class="wan"> 万 </span>
+					</div>
+					
+				</div>
+
+				<div class="feature">
+					<h3 class="feature-title title">特色 :</h3>
+					<ul class="main">
+						<li class="unmilit">
+							<a href="">不限</a>
+						</li>
+						<li><a href="">优惠楼盘</a></li>
+						<li><a href="">低密度</a></li>
+						<li><a href="">花园洋房</a></li>
+						<li><a href="">车位充足</a></li>
+					</ul>
+					
+				</div>
+
+				<div class="leixing">
+					<h3 class="leixing-title title">类型 :</h3>
+					<ul class="main">
+						<li class="unmilit">
+							<a href="">不限</a>
+						</li>
+						<li><a href="">住宅</a></li>
+						<li><a href="">别墅</a></li>
+						<li><a href="">写字楼</a></li>
+						<li><a href="">商铺</a></li>
+						<li><a href="">底商</a></li>
+					</ul>
+					
+				</div>
+
+				<div class="sell">
+					<h3 class="sell-title title">售卖 :</h3>
+					<ul class="main">
+						<li class="unmilit">
+							<a href="">不限</a>
+						</li>
+						<li><a href="">在售</a></li>
+						<li><a href="">售罄</a></li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- 主索引 content-nav 结束 -->
+
+<!--  列表主体 subject 开始 -->
+
+<div class="subject">
+	<div class="subject-box page-container">
+		<div class="sub-nav">
+			<div class="pattern">
+				<span class="pat-left">楼盘模式</span>
+				<span class="">户型图模式</span>
+			</div>
+			<div class="sort">	
+				<p class="text">为你找到<span class="num">459</span>个北京楼盘</p>
+				<p class="moren">
+					<a href="">默认排序</a>
+				</p>
+				<p class="filt">
+					<a href="">按价格排序<span></span></a>
+					<div class="filt-con">
+						<p><a href="">均价从低到高</a></p>
+						<p><a href="">均价从高到低</a></p>
+					</div>
+				</p>	
+			</div>
+		</div>
+		<ul class="sub-content">
+			<li class="sub-list">
+				<img src="./images/list/1.jpg">
+				<div class="sub-msg">
+					<div class="msg-left">
+						<h2 class="msg-title">
+							<a href="">领袖翡翠山</a><span class="promotion">立减5万 </span>
+						</h2>
+						<p class="msg-add">丰台-王佐镇长青路南侧</p>
+						<p class="area">4居/3居 - 建面 129 ~ 226 ㎡</p>
+						<div class="other">
+							<span>五证齐全</span>
+							<span>车位充足</span>
+							<span>低密度</span>
+							<span>花园洋房</span>
+						</div>
+						<div class="state">
+							<span class="one">在售</span>
+							<span class="two">住宅</span>
+							<span class="three">五证齐全</span>
+						</div>
+					</div>
+					<div class="sub-price">
+						<p>均价<span>53500</span>元/平</p>
+					</div>
+				</div>
+				<li class="sub-list">
+				<img src="./images/list/2.jpg">
+				<div class="sub-msg">
+					<div class="msg-left">
+						<h2 class="msg-title">
+							<a href="">领袖翡翠山</a><span class="promotion">立减5万 </span>
+						</h2>
+						<p class="msg-add">丰台-王佐镇长青路南侧</p>
+						<p class="area">4居/3居 - 建面 129 ~ 226 ㎡</p>
+						<div class="other">
+							<span>五证齐全</span>
+							<span>车位充足</span>
+							<span>低密度</span>
+							<span>花园洋房</span>
+						</div>
+						<div class="state">
+							<span class="one">在售</span>
+							<span class="two">住宅</span>
+							<span class="three">五证齐全</span>
+						</div>
+					</div>
+					<div class="sub-price">
+						<p>均价<span>53500</span>元/平</p>
+					</div>
+				</div>
+			</li>
+			<li class="sub-list">
+				<img src="./images/list/3.jpg">
+				<div class="sub-msg">
+					<div class="msg-left">
+						<h2 class="msg-title">
+							<a href="">领袖翡翠山</a><span class="promotion">立减5万 </span>
+						</h2>
+						<p class="msg-add">丰台-王佐镇长青路南侧</p>
+						<p class="area">4居/3居 - 建面 129 ~ 226 ㎡</p>
+						<div class="other">
+							<span>五证齐全</span>
+							<span>车位充足</span>
+							<span>低密度</span>
+							<span>花园洋房</span>
+						</div>
+						<div class="state">
+							<span class="one">在售</span>
+							<span class="two">住宅</span>
+							<span class="three">五证齐全</span>
+						</div>
+					</div>
+					<div class="sub-price">
+						<p>均价<span>53500</span>元/平</p>
+					</div>
+				</div>
+			</li>
+			<li class="sub-list">
+				<img src="./images/list/4.jpg">
+				<div class="sub-msg">
+					<div class="msg-left">
+						<h2 class="msg-title">
+							<a href="">领袖翡翠山</a><span class="promotion">立减5万 </span>
+						</h2>
+						<p class="msg-add">丰台-王佐镇长青路南侧</p>
+						<p class="area">4居/3居 - 建面 129 ~ 226 ㎡</p>
+						<div class="other">
+							<span>五证齐全</span>
+							<span>车位充足</span>
+							<span>低密度</span>
+							<span>花园洋房</span>
+						</div>
+						<div class="state">
+							<span class="one">在售</span>
+							<span class="two">住宅</span>
+							<span class="three">五证齐全</span>
+						</div>
+					</div>
+					<div class="sub-price">
+						<p>均价<span>53500</span>元/平</p>
+					</div>
+				</div>
+			</li>
+			<li class="sub-list">
+				<img src="./images/list/5.jpg">
+				<div class="sub-msg">
+					<div class="msg-left">
+						<h2 class="msg-title">
+							<a href="">领袖翡翠山</a><span class="promotion">立减5万 </span>
+						</h2>
+						<p class="msg-add">丰台-王佐镇长青路南侧</p>
+						<p class="area">4居/3居 - 建面 129 ~ 226 ㎡</p>
+						<div class="other">
+							<span>五证齐全</span>
+							<span>车位充足</span>
+							<span>低密度</span>
+							<span>花园洋房</span>
+						</div>
+						<div class="state">
+							<span class="one">在售</span>
+							<span class="two">住宅</span>
+							<span class="three">五证齐全</span>
+						</div>
+					</div>
+					<div class="sub-price">
+						<p>均价<span>53500</span>元/平</p>
+					</div>
+				</div>
+			</li>
+			<li class="sub-list">
+				<img src="./images/list/1.jpg">
+				<div class="sub-msg">
+					<div class="msg-left">
+						<h2 class="msg-title">
+							<a href="">领袖翡翠山</a><span class="promotion">立减5万 </span>
+						</h2>
+						<p class="msg-add">丰台-王佐镇长青路南侧</p>
+						<p class="area">4居/3居 - 建面 129 ~ 226 ㎡</p>
+						<div class="other">
+							<span>五证齐全</span>
+							<span>车位充足</span>
+							<span>低密度</span>
+							<span>花园洋房</span>
+						</div>
+						<div class="state">
+							<span class="one">在售</span>
+							<span class="two">住宅</span>
+							<span class="three">五证齐全</span>
+						</div>
+					</div>
+					<div class="sub-price">
+						<p>均价<span>53500</span>元/平</p>
+					</div>
+				</div>
+			</li>
+			</li>
+		</ul>
+		
+<!--  分页器 page-box 开始  -->
+		<div class="page-box">
+			<a class="on" href="">1</a>
+			<a href="">2</a>
+			<a href="">3</a>
+			<a class="omit" href="">...</a>
+			<a href="">46</a>
+			<a href="">下一页</a>		
+		</div>
+
+<!--  分页器 page-box 结束  -->
+	</div>
+	
+</div>
+
+
+
+<!--  列表主体 subject 结束 -->
+
+
+
+
+
+
+
+<!-- 页尾 footer 开始 -->
+	<div class="footer">
+		<div class="footer-box container">
+			<div class="footer-title">
+				<ul class="title-nav">
+					<li><a href="">了解链家</a></li>
+					<li><a href="">关于链家</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">加入我们</a></li>
+					<li><a href="">隐私声明</a></li>
+					<li><a href="">网站地图</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">经纪人登陆</a></li>
+				</ul>
+				<p class="tel">官方客服 1010 9666</p>
+			</div>
+
+			<div class="ft-content">
+				<ul class="ft-nav">
+					<li class="active">城市二手房</li>
+					<li>商圈二手房</li>
+					<li>商圈租房</li>
+					<li>商圈小区</li>
+					<li>热门小区</li>
+					<li>小区二手房</li>
+					<li>小区租房</li>
+					<li>新房</li>
+					<li>百科</li>
+					<li>租房</li>
+					<li>小区</li>
+					<li>问答</li>
+					<li>房产专题</li>
+					<li>商圈房价</li>
+					<li>合作与友情链接</li>
+				</ul>
+				<ul class="ft-list">
+					<li class="active">
+						<a href="">北京二手房</a>
+						<a href="">广州二手房</a>
+						<a href="">深圳二手房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">无锡二手房</a>
+						<a href="">合肥二手房</a>
+						<a href="">郑州二手房</a>
+					</li>
+					<li>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">旧宫二手房</a>
+						<a href="">宣武门二手房</a>
+						<a href="">华威桥二手房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">乔庄小区</a>
+						<a href="">东花市小区</a>
+						<a href="">崇文门小区</a>
+						<a href="">安贞小区</a>
+						<a href="">工体小区</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">花香小区二手房</a>
+						<a href="">新街口小区</a>
+						<a href="">马坡小区</a>
+					</li>
+					<li>
+						<a href="">香悦四季</a>
+						<a href="">首创新悦成</a>
+						<a href="">枣园商城</a>
+						<a href="">丽景长安</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">领秀新硅谷2号院</a>
+						<a href="">金港国际</a>
+						<a href="">知春里</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">杨庄租房</a>
+						<a href="">亚运村小营租房</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">崇文门租房</a>
+						<a href="">菜户营租房</a>
+					</li>
+					<li>
+						<a href="">装修效果图</a>
+						<a href="">天气预报查询一周</a>
+						<a href="">草桥租房</a>
+						<a href="">天津二手房</a>
+						<a href="">成都二手房</a>
+						<a href="">南京二手房</a>
+						<a href="">杭州二手房</a>
+						<a href="">青岛二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">重庆二手房</a>
+						<a href="">长沙二手房</a>
+						<a href="">济南二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">北京二手房</a>
+						<a href="">安定门二手房</a>
+						<a href="">马连道二手房</a>
+						<a href="">南沙滩二手房</a>
+						<a href="">甘家口二手房</a>
+						<a href="">甘露园二手房</a>
+						<a href="">亚运村二手房</a>
+						<a href="">东城二手房</a>
+						<a href="">北七家二手房</a>
+						<a href="">大连二手房</a>
+						<a href="">厦门二手房</a>
+						<a href="">武汉二手房</a>
+						<a href="">东花市租房</a>
+						<a href="">手机房产网</a>
+						<a href="">装修网</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="bottom">
+				<p >链家网（北京）科技有限公司 | 网络经营许可证 京ICP备16057509号-2 | © Copyright©2010-2017 链家网Lianjia.com版权所有</p>
+				<a class="record" href="">
+					<img src="images/head/beian.png">
+					<span>京公网安备 11010802024019号</span>	
+				</a>
+			</div>
+		</div>
+		
+	</div>	
+<!-- 页尾 footer 结束 -->
+
+
+
+
+<!-- JS引入部分  开始-->
+	<script src="plugins/dialog.js"></script>
+	<script src="plugins/jquery.min.js"></script>
+	<script src="js/list.js"></script>
+
+<!-- JS引入部分  结束-->
+</body>
+</html>
